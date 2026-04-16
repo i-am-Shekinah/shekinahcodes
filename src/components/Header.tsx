@@ -6,7 +6,7 @@ function Header() {
 
                 <h1 className="text-6xl mt-10 mb-8">Michael Olatunji</h1>
 
-                <p className="text-2xl font-light text-gray-300 mb-8"><span className="text-neon-green text-2xl">{"< "}</span>Software Engineer_</p>
+                <p className="text-2xl font-light text-gray-300 mb-8"><span className="text-neon-green text-2xl">{"> "}</span>Software Engineer_</p>
 
                 <p className="text-gray-400 font-light mb-8">Crafting digital experiences with code. Specializing in web development, cybersecurity, and innovative solutions.</p>
             </div>
