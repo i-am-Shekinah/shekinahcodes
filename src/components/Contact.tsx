@@ -3,7 +3,7 @@ import WorkStatus from "./WorkStatus";
 
 function Contact() {
     return (
-        <div id="contact" className="mx-6 md:mx-12 my-12 md:my-20">
+        <div id="contact" className="mx-6 md:mx-12 my-12 md:my-20 scroll-mt-20">
             
             <div data-aos="fade-up" data-aos-delay="100" className="mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold tracking-wide">

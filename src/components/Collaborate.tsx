@@ -32,28 +32,28 @@ function Collaborate() {
     { 
       icon: Github, 
       label: "GitHub", 
-      href: "#", 
+      href: "https://github.com/i-am-Shekinah", 
       colorClass: "text-neon-green", 
       glowClass: "drop-shadow-[0_0_8px_rgba(0,255,65,0.6)]" 
     },
     { 
       icon: Linkedin, 
       label: "LinkedIn", 
-      href: "#", 
+      href: "https://www.linkedin.com/in/michael-olatunji-75347b247/", 
       colorClass: "text-sky-400", 
       glowClass: "drop-shadow-[0_0_8px_rgba(56,189,248,0.6)]" 
     },
     { 
       icon: X, 
       label: "Twitter", 
-      href: "#", 
+      href: "https://x.com/ShekinahCodes", 
       colorClass: "text-neon-purple", 
       glowClass: "drop-shadow-[0_0_8px_rgba(188,19,254,0.6)]" 
     },
     { 
       icon: Mail, 
       label: "Email", 
-      href: "mailto:your@email.com", 
+      href: "mailto:michaelolatunji.dev@gmail.com", 
       colorClass: "text-neon-green", 
       glowClass: "drop-shadow-[0_0_8px_rgba(0,255,65,0.6)]" 
     },

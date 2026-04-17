@@ -1,6 +1,6 @@
 function Project() {
     return (
-        <div>
+        <div id="project" className="scroll-mt-20">
             <h2>{"<Projects />"}</h2>
 
             <div>

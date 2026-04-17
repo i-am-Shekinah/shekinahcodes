@@ -26,7 +26,7 @@ function Header() {
 
 
             <nav data-aos="fade-up" data-aos-delay="150" className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-4 w-full sm:w-auto">
-                <a href="#projects" className="w-full sm:w-44 py-4 border-2 border-neon-green text-neon-green shadow-[0_0_10px_rgba(0,255,65,0.4)] 
+                <a href="#project" className="w-full sm:w-44 py-4 border-2 border-neon-green text-neon-green shadow-[0_0_10px_rgba(0,255,65,0.4)] 
                    hover:shadow-[0_0_20px_rgba(0,255,65,0.7)] hover:bg-neon-green hover:text-black transition-all duration-300 uppercase text-xs tracking-widest font-bold">
                     View Projects
                 </a>
