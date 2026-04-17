@@ -8,7 +8,7 @@ interface CardProps {
 
 function SkillsCard({ title, icon: Icon, items }: CardProps) {
   return (
-    <div className="flex flex-col flex-1 justify-center min-h-[16rem] p-6 bg-black/40 border border-neon-blue backdrop-blur-md 
+    <div className="flex flex-col flex-1 justify-center min-h-64 p-6 bg-black/40 border border-neon-blue backdrop-blur-md 
                     md:hover:scale-105 md:hover:shadow-[0_0_20px_rgba(0,217,255,0.7)] md:hover:shadow-neon-blue 
                     transition-all group duration-500 relative overflow-hidden">
 
