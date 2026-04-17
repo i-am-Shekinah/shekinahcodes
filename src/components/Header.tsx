@@ -2,30 +2,30 @@ function Header() {
     return (
         <header className="relative min-dvh-screen flex flex-col items-center justify-center px-6 py-30 md:py-32 max-w-4xl mx-auto text-center overflow-hidden">
             
-            <div className="z-10 w-full">
+            <div data-aos="fade-up" data-aos-delay="100" className="z-10 w-full">
                 <p className="text-neon-green font-mono text-sm md:text-base tracking-tight">
                     {">_ shekinah@shekinah:~$" }
                 </p>
 
 
-                <h1 className="text-4xl sm:text-5xl md:text-7xl mt-6 md:mt-10 mb-6 md:mb-8 font-black bg-linear-to-r from-neon-green to-neon-purple bg-clip-text text-transparent animate-fade-in leading-tight">
+                <h1 data-aos="fade-up" data-aos-delay="150" className="text-4xl sm:text-5xl md:text-7xl mt-6 md:mt-10 mb-6 md:mb-8 font-black bg-linear-to-r from-neon-green to-neon-purple bg-clip-text text-transparent animate-fade-in leading-tight">
                     Michael Olatunji
                 </h1>
 
 
-                <p className="text-xl md:text-2xl font-light text-gray-300 mb-6 md:mb-8">
+                <p data-aos="fade-up" data-aos-delay="150" className="text-xl md:text-2xl font-light text-gray-300 mb-6 md:mb-8">
                     <span className="text-neon-green text-xl md:text-2xl">{"> "}</span>
                     Software Engineer_
                 </p>
 
 
-                <p className="text-gray-400 font-light mb-10 max-w-lg mx-auto text-sm md:text-base leading-relaxed">
+                <p data-aos="fade-up" data-aos-delay="200" className="text-gray-400 font-light mb-10 max-w-lg mx-auto text-sm md:text-base leading-relaxed">
                     Crafting digital experiences with code. Specializing in web development, cybersecurity, and innovative solutions.
                 </p>
             </div>
 
 
-            <nav className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-4 w-full sm:w-auto">
+            <nav data-aos="fade-up" data-aos-delay="150" className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-4 w-full sm:w-auto">
                 <a href="#projects" className="w-full sm:w-44 py-4 border-2 border-neon-green text-neon-green shadow-[0_0_10px_rgba(0,255,65,0.4)] 
                    hover:shadow-[0_0_20px_rgba(0,255,65,0.7)] hover:bg-neon-green hover:text-black transition-all duration-300 uppercase text-xs tracking-widest font-bold">
                     View Projects

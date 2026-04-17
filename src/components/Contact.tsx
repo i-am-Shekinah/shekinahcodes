@@ -5,7 +5,7 @@ function Contact() {
     return (
         <div id="contact" className="mx-6 md:mx-12 my-12 md:my-20">
             
-            <div className="mb-12">
+            <div data-aos="fade-up" data-aos-delay="100" className="mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold tracking-wide">
                     <span className="text-neon-blue">{"<"}</span>
                     Get in Touch 
@@ -22,12 +22,12 @@ function Contact() {
             <div className="flex flex-col lg:flex-row justify-between gap-12 lg:h-full">
 
                 {/* col-1: Contact Form */}
-                <div className="flex-1 w-full order-2 lg:order-1">
+                <div data-aos="fade-right" data-aos-delay="200" className="flex-1 w-full order-2 lg:order-1">
                     <ContactForm />
                 </div>
 
                 {/* col-2: Work Status & Collaborate */}
-                <div className="flex-1 w-full order-1 lg:order-2">
+                <div data-aos="fade-left" data-aos-delay="200" className="flex-1 w-full order-1 lg:order-2">
                     <WorkStatus />
                 </div>
 

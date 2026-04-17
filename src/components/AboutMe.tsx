@@ -5,7 +5,7 @@ function AboutMe() {
     return (
         <div className="mx-6 md:mx-12 my-12 md:my-20">
 
-            <div className="mb-12">
+            <div data-aos="fade-up" data-aos-delay="100" className="mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold tracking-wide">
                     <span className="text-neon-green">{"<"}</span>
                     About Me
@@ -22,7 +22,7 @@ function AboutMe() {
             <div className="flex flex-col lg:flex-row lg:h-full gap-8 lg:gap-12">
 
 
-                <div className="flex-1 flex flex-col space-y-6">
+                <div data-aos="fade-right" data-aos-delay="100" className="flex-1 flex flex-col space-y-6">
 
                     <div className="border border-neon-green shadow-[0_0_4px_rgba(0,255,65,0.4)] shadow-neon-green py-8 px-6 flex flex-col justify-center leading-loose relative lg:h-full">
                         <div className="flex gap-2 mb-4">
@@ -43,7 +43,7 @@ function AboutMe() {
                 </div>
 
                 {/* Skills Grid Section */}
-                <div className="flex-1 flex flex-col space-y-4">
+                <div data-aos="fade-left" data-aos-delay="100" className="flex-1 flex flex-col space-y-4">
                     {/* Row 1: Grid for mobile/tablet, flex for desktop */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                         <SkillsCard
