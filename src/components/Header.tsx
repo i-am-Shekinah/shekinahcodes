@@ -17,7 +17,7 @@ function Header() {
                 <a href="" className="inline-block border-2 border-neon-green text-neon-green shadow-[0_0_10px_rgba(0,255,65,0.4)] 
                    hover:shadow-[0_0_20px_rgba(0,255,65,0.7)] shadow-neon-green w-44 py-4 hover:cursor-pointer hover:bg-neon-green hover:text-black transition-all duration-300">View Projects</a>
 
-                <a href="" className="inline-block border-2 border-neon-purple text-neon-purple shadow-neon-purple shadow-[0_0_10px_rgba(188,19,254,0.4)] 
+                <a href="#contact" className="inline-block border-2 border-neon-purple text-neon-purple shadow-neon-purple shadow-[0_0_10px_rgba(188,19,254,0.4)] 
                    hover:shadow-[0_0_20px_rgba(188,19,254,0.7)] w-44 py-4 hover:cursor-pointer hover:bg-neon-purple hover:text-black transition-all duration-300">Contact Me</a>
             </nav>
 

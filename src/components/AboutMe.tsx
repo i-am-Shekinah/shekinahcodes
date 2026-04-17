@@ -4,7 +4,7 @@ import { Shield, Code2, Database, Zap } from "lucide-react";
 function AboutMe() {
 
     return (
-        <div className="mx-12">
+        <div className="mx-12 my-6">
 
             <div className="mb-12">
                 <h2 className="heading2"><span className="text-neon-green">{"<"}</span>About Me <span className="text-neon-green">{"/>"}</span></h2>
