@@ -60,7 +60,7 @@ function Collaborate() {
   ];
 
   return (
-    <div className="max-w-md p-8 bg-black">
+    <div className="p-8 bg-black border border-neon-purple shadow-neon-purple shadow-[0_0_4px_rgba(188,19,254,0.4)]">
       {/* Section Header */}
       <h2 className="text-3xl font-bold mb-6 bg-linear-to-r from-neon-purple to-indigo-400 bg-clip-text text-transparent">
         Let's Collaborate
