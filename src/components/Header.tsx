@@ -4,7 +4,7 @@ function Header() {
             <div>
                 <p className="text-neon-green">{">_ shekinah@shekinah:~$"}</p>
 
-                <h1 className="text-6xl mt-10 mb-8">Michael Olatunji</h1>
+                <h1 className="text-6xl mt-10 mb-8 font-black bg-linear-to-r from-neon-green to-neon-purple bg-clip-text text-transparent animate-fade-in">Michael Olatunji</h1>
 
                 <p className="text-2xl font-light text-gray-300 mb-8"><span className="text-neon-green text-2xl">{"> "}</span>Software Engineer_</p>
 
