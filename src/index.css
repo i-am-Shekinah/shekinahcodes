@@ -35,6 +35,7 @@ html {
   scroll-behavior: smooth;
   scrollbar-width: thin;
   scrollbar-color: var(--color-neon-green) transparent;
+  overflow-x: hidden;
 }
 
 
