@@ -1,10 +1,21 @@
+import { Download } from "lucide-react";
+
 function Header() {
     return (
         <header className="relative min-dvh-screen flex flex-col items-center justify-center px-6 py-30 md:pt-32 md:pb-20 max-w-4xl mx-auto text-center overflow-hidden">
             
+            {/* Resume Download Link */}
+            <a
+                href="/resume.pdf"
+                download
+                className="absolute top-2 right-2 mt-6 text-[14px] font-mono text-gray-200 hover:text-neon-blue transition-colors flex items-center gap-1 opacity-60 hover:opacity-100"
+            >
+                <Download size={14} /> FETCH_RESUME.pdf
+            </a>
+
             <div data-aos="fade-up" data-aos-delay="100" className="z-10 w-full">
                 <p className="text-neon-green font-mono text-sm md:text-base tracking-tight">
-                    {">_ shekinah@shekinah:~$" }
+                    {">_ shekinah@shekinah:~$"}
                 </p>
 
 
@@ -41,15 +52,15 @@ function Header() {
             {/* The Animated Arrow */}
             <div className="absolute bottom-10 md:bottom-4 left-1/2 -translate-x-1/2">
                 <div className="animate-terminal-float">
-                    <svg 
-                        width="24" 
-                        height="24" 
-                        viewBox="0 0 24 24" 
-                        fill="none" 
-                        stroke="currentColor" 
-                        strokeWidth="2" 
-                        strokeLinecap="round" 
-                        strokeLinejoin="round" 
+                    <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         className="text-neon-green drop-shadow-[0_0_8px_rgba(0,255,65,0.8)]"
                     >
                         <path d="M7 13l5 5 5-5M7 6l5 5 5-5" />

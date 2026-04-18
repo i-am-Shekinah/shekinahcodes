@@ -1,16 +1,71 @@
-# React + Vite
+# Michael Olatunji Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website built with React, TypeScript, Vite, and Tailwind CSS. The site presents Michael Olatunji's profile, featured projects, technical focus, and contact channels through a neon terminal-inspired interface with animated transitions and a Matrix-style background.
 
-Currently, two official plugins are available:
+## Live URL
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Visit the live site here: [https://shekinahcodes.vercel.app/](https://shekinahcodes.vercel.app/)
 
-## React Compiler
+## Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project is a single-page portfolio experience designed to:
 
-## Expanding the ESLint configuration
+- Introduce Michael Olatunji as a software and systems engineer
+- Highlight selected projects with code and demo links
+- Showcase technical skills across frontend, backend, systems, and tools
+- Provide direct collaboration and contact options
+- Let visitors send messages through an EmailJS-powered contact form
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Terminal-inspired hero section with smooth-scroll navigation
+- Animated Matrix canvas background
+- Scroll-based reveal animations powered by AOS
+- About section with skills cards
+- Featured projects rendered from a central data file
+- Contact section with social links and availability details
+- Contact form with success and error feedback modal
+- Responsive layout for mobile and desktop
+
+## Tech Stack
+
+- React 19
+- TypeScript
+- Vite
+- Tailwind CSS v4
+- AOS
+- EmailJS
+- Lucide React
+
+## Project Structure
+
+```text
+src/
+  App.tsx
+  MatrixBackground.tsx
+  assets/data/projects.ts
+  components/
+    AboutMe.tsx
+    Contact.tsx
+    ContactForm.tsx
+    Footer.tsx
+    Header.tsx
+    Project.tsx
+    WorkStatus.tsx
+    Collaborate.tsx
+    ui/
+      Modal.tsx
+      ProjectsCard.tsx
+      SkilsCard.tsx
+```
+
+
+## Design Notes
+
+The interface uses a custom neon palette, JetBrains Mono typography, animated gradients, and subtle scanline effects to create a cyber-terminal aesthetic.
+
+## Deployment
+
+The live site is deployed on Vercel:
+
+[https://shekinahcodes.vercel.app/](https://shekinahcodes.vercel.app/)
