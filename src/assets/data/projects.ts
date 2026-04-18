@@ -11,7 +11,7 @@ export interface ProjectCardProps {
 export const projects: ProjectCardProps[] = [
     {
         title: 'A Booking Management System',
-        description: 'A platform where users can book services from professionals',
+        description: 'A full-stack, invite-only service booking platform that enables users to schedule appointments with service providers, featuring real-time availability, role-based dashboards, and conflict-free booking logic.',
         tools: ['NextJS', 'NestJS', 'TypeScript', 'PostgreSQL', 'Prisma'],
         githubLink: 'https://github.com/i-am-Shekinah/work-nest',
         liveLink: 'https://work-nest-self.vercel.app',
@@ -21,7 +21,7 @@ export const projects: ProjectCardProps[] = [
 
     {
         title: 'A Prizeet Redesign',
-        description: 'A redesign of the Prizeet platform with a modern UI',
+        description: 'A modern UI redesign of the Prizeet platform aimed at improving user experience, visual hierarchy, and overall usability. This project focuses on creating a more intuitive interface while maintaining the core functionality of the original platform.',
         tools: ['ReactJS', 'TypeScript', 'Tailwind CSS'],
         githubLink: 'https://github.com/i-am-Shekinah/prizeet-redesign',
         liveLink: 'https://prizeet-redesignio.vercel.app/',

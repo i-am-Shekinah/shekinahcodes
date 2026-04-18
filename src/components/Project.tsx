@@ -5,7 +5,7 @@ function Project() {
     return (
         <section id="projects" className="mx-6 md:mx-12 my-20 scroll-mt-24">
 
-            <div className="mb-12">
+            <div data-aos="fade-up" data-aos-delay="100" className="mb-12">
                 <h2 className="heading2">
                     <span className="text-neon-purple">{"<"}</span>
                     Projects

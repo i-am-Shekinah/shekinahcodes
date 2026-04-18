@@ -21,7 +21,7 @@ function ProjectsCard({
 
 
     return (
-        <div className={`flex flex-col bg-black border border-white/10 p-6 md:p-8 transition-all duration-300 h-full hover:scale-105 ${glowClass} ${hoverStyle}`}>
+        <div data-aos="fade-right" data-aos-delay="150"  className={`flex flex-col bg-black border border-white/10 p-6 md:p-8 transition-all duration-300 h-full hover:scale-105 ${glowClass} ${hoverStyle}`}>
             
 
             <h3 className={`text-2xl font-bold mb-4 ${colorClass}`}>
