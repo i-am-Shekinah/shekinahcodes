@@ -1,13 +1,30 @@
+import ProjectsCard from "./ui/ProjectsCard";
+import { projects } from "../assets/data/projects";
+
 function Project() {
     return (
-        <div id="project" className="scroll-mt-20">
-            <h2>{"<Projects />"}</h2>
+        <section id="projects" className="mx-6 md:mx-12 my-20 scroll-mt-24">
 
-            <div>
-                <p>I'm a passionate developer with expertise in building secure, scalable web applications. With a background in both development and cybersecurity, I bring a unique perspective to every project I work on.</p>
+            <div className="mb-12">
+                <h2 className="heading2">
+                    <span className="text-neon-purple">{"<"}</span>
+                    Projects
+                    <span className="text-neon-purple">{" />"}</span>
+                </h2>
+                <div className="w-48 h-1 mt-4 relative overflow-hidden">
+                    <div className="absolute inset-0 bg-linear-to-r from-neon-purple via-neon-purple to-transparent" />
+                </div>
             </div>
-        </div>
-    )
+
+
+
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8">
+                {projects.map((project, index) => (
+                    <ProjectsCard key={index} {...project} />
+                ))}
+            </div>
+        </section>
+    );
 }
 
 export default Project;

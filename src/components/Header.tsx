@@ -1,6 +1,6 @@
 function Header() {
     return (
-        <header className="relative min-dvh-screen flex flex-col items-center justify-center px-6 py-30 md:py-32 max-w-4xl mx-auto text-center overflow-hidden">
+        <header className="relative min-dvh-screen flex flex-col items-center justify-center px-6 py-30 md:pt-32 md:pb-20 max-w-4xl mx-auto text-center overflow-hidden">
             
             <div data-aos="fade-up" data-aos-delay="100" className="z-10 w-full">
                 <p className="text-neon-green font-mono text-sm md:text-base tracking-tight">
@@ -19,7 +19,7 @@ function Header() {
                 </p>
 
 
-                <p data-aos="fade-up" data-aos-delay="200" className="text-gray-400 font-light mb-10 max-w-lg mx-auto text-sm md:text-base leading-relaxed">
+                <p data-aos="fade-up" data-aos-delay="200" className="text-gray-400 font-light mb-10 max-w-lg lg:max-w-xl mx-auto text-sm md:text-base leading-relaxed">
                     Crafting software that bridges the digital and physical world. Transitioning from full-stack web development into robotics systems engineering — one low-level abstraction at a time.
                 </p>
             </div>
@@ -39,7 +39,7 @@ function Header() {
 
 
             {/* The Animated Arrow */}
-            <div className="absolute bottom-10 md:bottom-12 left-1/2 -translate-x-1/2">
+            <div className="absolute bottom-10 md:bottom-4 left-1/2 -translate-x-1/2">
                 <div className="animate-terminal-float">
                     <svg 
                         width="24" 
