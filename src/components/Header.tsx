@@ -15,12 +15,12 @@ function Header() {
 
                 <p data-aos="fade-up" data-aos-delay="150" className="text-xl md:text-2xl font-light text-gray-300 mb-6 md:mb-8">
                     <span className="text-neon-green text-xl md:text-2xl">{"> "}</span>
-                    Software Engineer_
+                    Software → Systems Engineer_
                 </p>
 
 
                 <p data-aos="fade-up" data-aos-delay="200" className="text-gray-400 font-light mb-10 max-w-lg mx-auto text-sm md:text-base leading-relaxed">
-                    Crafting digital experiences with code. Specializing in web development, cybersecurity, and innovative solutions.
+                    Crafting software that bridges the digital and physical world. Transitioning from full-stack web development into robotics systems engineering — one low-level abstraction at a time.
                 </p>
             </div>
 

@@ -31,13 +31,13 @@ function AboutMe() {
                             <div className="h-2 w-2 rounded-full bg-neon-blue"></div>
                         </div>
                         <p className="text-sm md:text-base text-gray-200">
-                            I'm a passionate developer with expertise in building secure, scalable web applications. With a background in both development and cybersecurity, I bring a unique perspective to every project I work on.
+                            I'm a full-stack developer making a deliberate transition into robotics systems engineering. My foundation is in building web applications — now I'm going deeper, learning how software gives intelligence to physical machines.
                         </p>
                     </div>
 
                     <div className="border border-neon-purple shadow-[0_0_4px_rgba(188,19,254,0.4)] shadow-neon-purple py-8 px-6 flex items-center leading-loose lg:h-full">
                         <p className="text-sm md:text-base text-gray-200">
-                            When I'm not coding, you'll find me exploring the latest security vulnerabilities, contributing to open-source projects, or diving deep into low-level programming.
+                            When I'm not building web apps, you'll find me studying computer architecture, operating systems, and the fundamentals that power everything from autonomous vehicles to surgical robots.
                         </p>
                     </div>
                 </div>
@@ -62,9 +62,9 @@ function AboutMe() {
                     {/* Row 2 */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                         <SkillsCard
-                            title="Security"
+                            title="Systems"
                             icon={Shield}
-                            items={['Pentesting', 'Encryption', 'Auth']}
+                            items={['C/C++ (learning)', 'Linux & Bash', 'Computer Architecture']}
                         />
 
                         <SkillsCard
