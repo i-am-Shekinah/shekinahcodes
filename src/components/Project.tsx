@@ -3,7 +3,7 @@ import { projects } from "../assets/data/projects";
 
 function Project() {
     return (
-        <section id="projects" className="mx-6 md:mx-12 my-20 scroll-mt-24">
+        <section id="project" className="mx-6 md:mx-12 my-20 scroll-mt-24">
 
             <div data-aos="fade-up" data-aos-delay="100" className="mb-12">
                 <h2 className="heading2">
